@@ -1,0 +1,187 @@
+/*
+Theme Name: Amber's Twitter Timeline
+Author: Amber Leigh Turner of January Creative
+Author URI: januarycreative.com
+Description: A theme designed only to produce a WordPress powered Twitter App.
+Version: 0.1 (August 2014)
+*/
+
+/* Basic CSS Reset to Normalize code */
+@import url("_css/reset.css");
+
+/* apply a natural box layout model to all elements - allows for proper use of padding and margins relative to width and height */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;
+}
+
+/** 
+Column Percentage Break Down
+Spans over one column: 
+Spans over two columns: 
+Spans over all three columns: 
+Column Margins: 
+**/
+
+
+/** 
+
+Order of Styles
+1. Site Wide Typography
+2. Site Wide Layout
+3. Site Wide Header
+4. Site Wide Main Navigation
+5. Site Wide Body
+6. Site Wide Sidebar
+7. Site Wide Footer
+8. Home Specific Styles
+9. Other Page Specific Styles - Organized by Page Type/Name
+10. Print Styles
+11. IE Specific Styles - Designated by HTML Classes
+12. Media Queries - SHOULD ALWAYS BE LAST
+
+**/
+
+
+/** 1. SITE WIDE TYPOGRAPHY **/
+
+body {
+	font-family: "Helvetica", "Arial", sans-serif; 
+}
+
+h1 {
+	color: #666666;
+	text-align: center;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+h2 {
+	color: #666666;
+	font-size: 21px;
+	line-height: 32px;
+}
+
+h3 {
+	color: #666666;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+p {
+	color: #333333;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+ul.list {
+	margin: 15px;
+}
+
+ul.list li {
+	line-height: 21px;
+}
+
+/** 2. SITE WIDE LAYOUT **/
+
+
+/** 3. SITE WIDE HEADER **/
+
+header {
+	margin: 30px auto;
+	max-width: 1000px;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+
+/** 4. SITE WIDE MAIN NAVIGATION **/
+
+
+/** 5. SITE WIDE BODY **/
+
+#sitebody {
+	margin: 0 auto;
+	max-width: 1000px;
+	overflow: hidden;
+}
+
+#tweetswrapper {
+	width: 64%;
+	float: left;
+}
+
+#tweetswrapper .tweet {
+	width: 100%;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+#tweetswrapper .tweet .tweettime {
+	position: absolute;
+	font-size: 12px;
+	top: 26px;
+	right: 15px;
+}
+
+#tweetswrapper .tweet p.wp-date {
+	opacity: .5;
+	font-size: 12px;
+	text-align: left;
+	margin-top: 1px;
+	margin-bottom: -10px;
+}
+
+#tweetswrapper .bookmark {
+	width: 100%;
+	background: #666666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 5px;
+}
+
+#tweetswrapper .bookmark h3,
+#tweetswrapper .bookmark p {
+	color: white;
+}
+
+
+/** 6. SITE WIDE SIDEBAR **/
+
+ul#sidebar {
+	width: 33%;
+	float: right;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+
+/** 7. SITE WIDE FOOTER **/
+
+
+/** 8. HOME SPECIFIC STYLES **/
+
+
+/** 9. OTHER PAGE SPECIFIC STYLES - ORGANIZED BY PAGE TYPE/NAME **/
+
+
+/** 10. PRINT STYLES **/
+
+
+/** 11. IE SPECIFIC STYLES - DESIGNATED BY HTML CLASSES **/
+
+
+/** 12. MEDIA QUERIES **/
